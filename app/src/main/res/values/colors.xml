@@ -3,4 +3,10 @@
     <color name="colorPrimary">#161824</color>
     <color name="colorPrimaryDark">#161824</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color> <!--白色 -->
+    <color name="ivory">#FFFFF0</color> <!--象牙色 -->
+    <color name="gainsboro">#DCDCDC</color> <!--淡灰色 -->
+    <color name="darkblue">#00008B</color> <!--暗蓝色 -->
+    <color name="darkslategray">#2F4F4F</color> <!--暗瓦灰色 -->
+    <color name="darkslateblue">#483D8B</color> <!--暗灰蓝色 -->
 </resources>

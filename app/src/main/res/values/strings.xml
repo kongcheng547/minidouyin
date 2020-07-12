@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">hw2</string>
-
+    <string name="user_Name">空城Z247</string>
+    <string name="Tiktok_ID">抖音号：31234564678</string>
+    <string name="self_Introduction">个人简介</string>
+    <string name="self_Old">18岁</string>
+    <string name="Country">中国</string>
+    <string name="school">ZJU</string>
+    <string name="received_Praise">获赞</string>
+    <string name="your_Attention">关注</string>
+    <string name="your_Fens">粉丝</string>
+    <string name="your_Works">作品</string>
+    <string name="your_Daily">动态</string>
+    <string name="your_Like">喜欢</string>
+    <string name="edit_Res">编辑资料</string>
+    <string name="add_Friends">+ 好友</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
