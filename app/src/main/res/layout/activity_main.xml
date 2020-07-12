@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161824"
+    tools:context=".MainActivity">
+
+    <!--底部导航栏-->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg">
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#010101"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/shouye_tab"
+            style="@style/Custom.TabRadioButton"
+            android:checked="true"
+            android:text="首页" />
+        <RadioButton
+            android:id="@+id/guanzhu_tab"
+            style="@style/Custom.TabRadioButton"
+            android:text="关注" />
+        <LinearLayout
+            android:id="@+id/plus_tab"
+            style="@style/Custom.TabRadioButton"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/plus"/>
+        </LinearLayout>
+        <RadioButton
+            android:id="@+id/xiaoxi_tab"
+            style="@style/Custom.TabRadioButton"
+            android:text="消息" />
+        <RadioButton
+            android:id="@+id/wode_tab"
+            style="@style/Custom.TabRadioButton"
+            android:text="我的" />
+
+    </RadioGroup>
+
+</RelativeLayout>
